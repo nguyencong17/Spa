@@ -1,0 +1,17 @@
+body,p,a,li,ul,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: (--white-color);
+}
+li{
+    list-style-type: none;
+}
+a{
+  color: inherit;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

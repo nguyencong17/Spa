@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--size-body);
+  box-sizing: border-box;
+  max-width: 2560px;
+}
+
+.container-fluid {
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media screen and (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1140px;
+  }
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section {
+  padding-top: 30px;
+
+  @media screen and (min-width: 992px) {
+    padding-top: 120px;
+  }
+  
+}
+
+.section-name {
+
+  h2 {
+    @media screen and(min-width: 1200px) {
+      max-width: 540px;
+      margin: auto;
+    }
+  }
+
+  .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & > img {
+      margin-bottom: 16px;
+    }
+
+    & > h2 {
+      color: var(--text-color-1);
+      line-height: 125%;
+      margin-bottom: 30px;
+      text-transform: capitalize;
+
+    }
+  }
+}
+
+
+.btn {
+  
+  border-radius: 50px;
+  border: none;
+  background-color: linear-gradient(#4bb4ce, #4bb4ce);
+  color: var(--white-color);
+  font-family: var(--font-title);
+  font-weight: var(--weight-normal);
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  line-height: 186%;
+  text-transform: uppercase;
+  outline: none;
+  padding: 12px 24px;
+
+  cursor: pointer;
+  & :hover {
+    color: #f4f4f4;
+  }
+   @media screen and (min-width: 992px){
+    padding: 16px 32px;
+   }
+
+
+}
+
+.section-name {
+  text-align: center;
+  margin-bottom: 30px;
+  & > img {
+    margin: auto;
+    margin-bottom: 16px;
+  }
+
+  & > h2 {
+    font-weight: 400;
+    text-transform: unset;
+  }
+}
+
+.section-title {
+  color: var(--text-color-1);
+  font-family: var(--font-title);
+  line-height: 121%;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: center;
+  font-size: var(--size-section-title);
+}
+
+.card-title {
+  color: var(--text-color-1);
+  font-family: var(--font-title);
+  font-weight: 400;
+  font-size: var(--size-card-title-1);
+  letter-spacing: -0.02em;
+  line-height: 142%;
+  margin-top: 0;
+}
+
+.intro-title {
+  color: var(--text-color-2);
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--size-intro-Title);
+  line-height: 178%;
+}
