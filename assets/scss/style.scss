@@ -12,6 +12,10 @@
   }
 }
 
+.active {
+  color: var(--blue-color) !important;
+}
+
 /* ===== Container Body ===== */
 .wrapper {
   width: 100%;
@@ -29,10 +33,11 @@
   max-width: inherit;
   padding-top: 12px;
   margin-bottom: 48px;
-
   @media screen and (min-width: 992px) {
     padding-top: 24px;
-    margin-bottom: 90px;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #f8f9fa;
   }
 }
 
@@ -158,6 +163,12 @@
     & > a {
       @media screen and (min-width: 1728px) {
         padding: 5px 10px;
+      }
+
+      &:hover {
+        @media screen and (min-width: 992px) {
+          color: var(--blue-color);
+        }
       }
     }
   }

@@ -184,6 +184,9 @@ body {
     .owl-dots {
       margin-top: 60px !important; } }
 
+.active {
+  color: var(--blue-color) !important; }
+
 /* ===== Container Body ===== */
 .wrapper {
   width: 100%; }
@@ -201,7 +204,9 @@ body {
   @media screen and (min-width: 992px) {
     #top-nav {
       padding-top: 24px;
-      margin-bottom: 90px; } }
+      margin-bottom: 48px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid #f8f9fa; } }
 
 #top-nav .container-fluid .row {
   /* Top Nav Left */
@@ -287,6 +292,9 @@ body {
     @media screen and (min-width: 1728px) {
       #header .navbar ul li > a {
         padding: 5px 10px; } }
+    @media screen and (min-width: 992px) {
+      #header .navbar ul li > a:hover {
+        color: var(--blue-color); } }
   #header .btn-booking {
     display: none; }
     @media screen and (min-width: 992px) {
