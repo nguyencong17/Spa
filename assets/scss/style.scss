@@ -437,6 +437,7 @@ main {
 
     & > h4 {
       margin-bottom: 16px;
+      font-size: var(--size-card-title-2);
     }
 
     & > p {
@@ -623,7 +624,7 @@ main {
   }
 
   @media screen and (min-width: 992px) {
-    width: 19%;
+    width: 396px;
     min-width: 390px;
     position: absolute;
     top: 50%;
@@ -834,6 +835,7 @@ main {
   background-color: var(--blue-color);
   border-radius: 0 0 8px 8px;
   background-image: url(../img/decor-7.png);
+  background-repeat: no-repeat;
 
   @media screen and (min-width: 992px) {
     border-radius: 0 8px 8px 0;
@@ -950,7 +952,7 @@ main {
   text-align: center;
 
   & > h3:first-child {
-    font-size: var(--size-card-title-1);
+    font-size: var(--size-card-title-2);
     color: var(--text-color-1);
     line-height: 142%;
     margin-bottom: 16px;
@@ -1047,7 +1049,7 @@ main {
   }
 
   & > h3:nth-child(4) {
-    font-size: var(--size-card-title-1);
+    font-size: var(--size-card-title-2);
     line-height: 142%;
     text-align: left;
     margin-bottom: 8px;
@@ -1201,7 +1203,7 @@ main {
   }
 
   & > h3 {
-    font-size: var(--size-card-title-1);
+    font-size: var(--size-card-title-2);
     margin-bottom: 16px;
   }
 
@@ -1227,7 +1229,7 @@ main {
     max-width: 40%;
     margin: auto;
     padding: 12px 170px 12px 24px;
-    border: 1px solid var(--blue-color);
+    border: 1px solid #E0E0E0;
     border-radius: 50px;
     position: relative;
 
@@ -1369,6 +1371,7 @@ main {
 
   @media screen and (min-width: 1200px) {
     padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 

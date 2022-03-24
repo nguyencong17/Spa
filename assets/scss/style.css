@@ -480,7 +480,8 @@ main {
       margin-bottom: 24px;
       width: unset; }
     .section-1 .section-content .row .card > h4 {
-      margin-bottom: 16px; }
+      margin-bottom: 16px;
+      font-size: var(--size-card-title-2); }
     .section-1 .section-content .row .card > p {
       margin-bottom: 30px;
       font-size: var(--size-intro-Title); }
@@ -610,7 +611,7 @@ main {
       width: 50%; } }
   @media screen and (min-width: 992px) {
     .section-2 .card {
-      width: 19%;
+      width: 396px;
       min-width: 390px;
       position: absolute;
       top: 50%;
@@ -757,7 +758,8 @@ main {
   max-width: 100%;
   background-color: var(--blue-color);
   border-radius: 0 0 8px 8px;
-  background-image: url(../img/decor-7.png); }
+  background-image: url(../img/decor-7.png);
+  background-repeat: no-repeat; }
   @media screen and (min-width: 992px) {
     .section-4 .bound {
       border-radius: 0 8px 8px 0; } }
@@ -835,7 +837,7 @@ main {
   padding: 24px;
   text-align: center; }
   .section-5 .card-info > h3:first-child {
-    font-size: var(--size-card-title-1);
+    font-size: var(--size-card-title-2);
     color: var(--text-color-1);
     line-height: 142%;
     margin-bottom: 16px; }
@@ -906,7 +908,7 @@ main {
   .section-6 .section-6-content > p:nth-child(3) {
     margin-bottom: 30px; }
   .section-6 .section-6-content > h3:nth-child(4) {
-    font-size: var(--size-card-title-1);
+    font-size: var(--size-card-title-2);
     line-height: 142%;
     text-align: left;
     margin-bottom: 8px; }
@@ -1009,7 +1011,7 @@ main {
       width: 50%; } }
   .section-8 .section-8-left > h3,
   .section-8 .section-8-right > h3 {
-    font-size: var(--size-card-title-1);
+    font-size: var(--size-card-title-2);
     margin-bottom: 16px; }
   .section-8 .section-8-left > p,
   .section-8 .section-8-right > p {
@@ -1031,7 +1033,7 @@ main {
   max-width: 40%;
   margin: auto;
   padding: 12px 170px 12px 24px;
-  border: 1px solid var(--blue-color);
+  border: 1px solid #E0E0E0;
   border-radius: 50px;
   position: relative; }
   .section-8 .section-8-right .subcribe > input.input-email {
@@ -1129,7 +1131,8 @@ main {
   border-bottom: 1px solid #edfaff; }
   @media screen and (min-width: 1200px) {
     .section-10 {
-      padding-top: 120px; } }
+      padding-top: 120px;
+      padding-bottom: 120px; } }
 
 @media screen and (min-width: 768px) {
   .section-10 .row {
