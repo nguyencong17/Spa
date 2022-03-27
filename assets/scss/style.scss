@@ -97,7 +97,7 @@
       text-align: center;
       margin: 0 20px 0 0;
     }
-  }
+}
 }
 
 /* ===== Header ===== */
@@ -340,6 +340,7 @@
 
   @media screen and (min-width: 992px) {
     width: 40%;
+    border-radius: 0 0 8px 0;
   }
 
 }
@@ -564,6 +565,7 @@ main {
       height: inherit;
       object-fit: cover;
       width: 100%;
+      border-radius: 0 8px 8px 0;
     }
   }
 }
@@ -818,7 +820,7 @@ main {
 .section-4 .section-img {
   border-radius: 10px 10px 0 0;
   height: 370px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 576px) {
     width: 100%;
     object-fit: cover;
   }

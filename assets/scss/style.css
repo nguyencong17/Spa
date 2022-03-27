@@ -414,7 +414,8 @@ body {
   border-radius: 8px; }
   @media screen and (min-width: 992px) {
     .slide-show .bound {
-      width: 40%; } }
+      width: 40%;
+      border-radius: 0 0 8px 0; } }
 
 .slide-show .intro-description {
   padding: 30px 27px;
@@ -572,7 +573,8 @@ main {
     .section-2 .section-2-image > img {
       height: inherit;
       object-fit: cover;
-      width: 100%; } }
+      width: 100%;
+      border-radius: 0 8px 8px 0; } }
 
 .section-2 .comment {
   padding: 0;
@@ -744,7 +746,7 @@ main {
 .section-4 .section-img {
   border-radius: 10px 10px 0 0;
   height: 370px; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 576px) {
     .section-4 .section-img {
       width: 100%;
       object-fit: cover; } }
